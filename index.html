@@ -14578,7 +14578,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="nn">tf</span>
@@ -14618,409 +14618,22 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-python"><pre><span></span><span class="n">datos</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">'/content/drive/MyDrive/Data/tendencias_de_compras.csv'</span><span class="p">)</span>
 
-<span class="n">datos</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+<span class="n">datos</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
 </pre></div>
 
      </div>
 </div>
 </div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[2]:</div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-
-  <div id="df-d3b2d825-d307-40ed-8b91-e353445b94fe" class="colab-df-container">
-    <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Identificacion</th>
-      <th>Edad</th>
-      <th>Genero</th>
-      <th>Articulo comprado</th>
-      <th>Categoria</th>
-      <th>Precio USD</th>
-      <th>Ubicacion</th>
-      <th>Tamaño</th>
-      <th>Color</th>
-      <th>Temporada</th>
-      <th>Calificacion de revision</th>
-      <th>Estado de suscripcion</th>
-      <th>Metodo de pago</th>
-      <th>Tipo de envio</th>
-      <th>Descuento</th>
-      <th>Uso Codigo Promocional</th>
-      <th>Compras anteriores</th>
-      <th>Metodo de pago preferido</th>
-      <th>Frecuencia de compras</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>1</td>
-      <td>55</td>
-      <td>Male</td>
-      <td>Blouse</td>
-      <td>Clothing</td>
-      <td>53</td>
-      <td>Kentucky</td>
-      <td>L</td>
-      <td>Gray</td>
-      <td>Winter</td>
-      <td>3.1</td>
-      <td>Yes</td>
-      <td>Credit Card</td>
-      <td>Express</td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>14</td>
-      <td>Venmo</td>
-      <td>Fortnightly</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>2</td>
-      <td>19</td>
-      <td>Male</td>
-      <td>Sweater</td>
-      <td>Clothing</td>
-      <td>64</td>
-      <td>Maine</td>
-      <td>L</td>
-      <td>Maroon</td>
-      <td>Winter</td>
-      <td>3.1</td>
-      <td>Yes</td>
-      <td>Bank Transfer</td>
-      <td>Express</td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>2</td>
-      <td>Cash</td>
-      <td>Fortnightly</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>3</td>
-      <td>50</td>
-      <td>Male</td>
-      <td>Jeans</td>
-      <td>Clothing</td>
-      <td>73</td>
-      <td>Massachusetts</td>
-      <td>S</td>
-      <td>Maroon</td>
-      <td>Spring</td>
-      <td>3.1</td>
-      <td>Yes</td>
-      <td>Cash</td>
-      <td>Free Shipping</td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>23</td>
-      <td>Credit Card</td>
-      <td>Weekly</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>21</td>
-      <td>Male</td>
-      <td>Sandals</td>
-      <td>Footwear</td>
-      <td>90</td>
-      <td>Rhode Island</td>
-      <td>M</td>
-      <td>Maroon</td>
-      <td>Spring</td>
-      <td>3.5</td>
-      <td>Yes</td>
-      <td>PayPal</td>
-      <td>Next Day Air</td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>49</td>
-      <td>PayPal</td>
-      <td>Weekly</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>5</td>
-      <td>45</td>
-      <td>Male</td>
-      <td>Blouse</td>
-      <td>Clothing</td>
-      <td>49</td>
-      <td>Oregon</td>
-      <td>M</td>
-      <td>Turquoise</td>
-      <td>Spring</td>
-      <td>2.7</td>
-      <td>Yes</td>
-      <td>Cash</td>
-      <td>Free Shipping</td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>31</td>
-      <td>PayPal</td>
-      <td>Annually</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-    <div class="colab-df-buttons">
-
-  <div class="colab-df-container">
-    <button class="colab-df-convert" onclick="convertToInteractive('df-d3b2d825-d307-40ed-8b91-e353445b94fe')"
-            title="Convert this dataframe to an interactive table."
-            style="display:none;">
-
-  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
-    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
-  </svg>
-    </button>
-
-  <style>
-    .colab-df-container {
-      display:flex;
-      gap: 12px;
-    }
-
-    .colab-df-convert {
-      background-color: #E8F0FE;
-      border: none;
-      border-radius: 50%;
-      cursor: pointer;
-      display: none;
-      fill: #1967D2;
-      height: 32px;
-      padding: 0 0 0 0;
-      width: 32px;
-    }
-
-    .colab-df-convert:hover {
-      background-color: #E2EBFA;
-      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
-      fill: #174EA6;
-    }
-
-    .colab-df-buttons div {
-      margin-bottom: 4px;
-    }
-
-    [theme=dark] .colab-df-convert {
-      background-color: #3B4455;
-      fill: #D2E3FC;
-    }
-
-    [theme=dark] .colab-df-convert:hover {
-      background-color: #434B5C;
-      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
-      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
-      fill: #FFFFFF;
-    }
-  </style>
-
-    <script>
-      const buttonEl =
-        document.querySelector('#df-d3b2d825-d307-40ed-8b91-e353445b94fe button.colab-df-convert');
-      buttonEl.style.display =
-        google.colab.kernel.accessAllowed ? 'block' : 'none';
-
-      async function convertToInteractive(key) {
-        const element = document.querySelector('#df-d3b2d825-d307-40ed-8b91-e353445b94fe');
-        const dataTable =
-          await google.colab.kernel.invokeFunction('convertToInteractive',
-                                                    [key], {});
-        if (!dataTable) return;
-
-        const docLinkHtml = 'Like what you see? Visit the ' +
-          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
-          + ' to learn more about interactive tables.';
-        element.innerHTML = '';
-        dataTable['output_type'] = 'display_data';
-        await google.colab.output.renderOutput(dataTable, element);
-        const docLink = document.createElement('div');
-        docLink.innerHTML = docLinkHtml;
-        element.appendChild(docLink);
-      }
-    </script>
-  </div>
-
-
-<div id="df-ff109bbb-0d5d-43fc-b9dd-9c1886d606a7">
-  <button class="colab-df-quickchart" onclick="quickchart('df-ff109bbb-0d5d-43fc-b9dd-9c1886d606a7')"
-            title="Suggest charts"
-            style="display:none;">
-
-<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
-     width="24px">
-    <g>
-        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
-    </g>
-</svg>
-  </button>
-
-<style>
-  .colab-df-quickchart {
-      --bg-color: #E8F0FE;
-      --fill-color: #1967D2;
-      --hover-bg-color: #E2EBFA;
-      --hover-fill-color: #174EA6;
-      --disabled-fill-color: #AAA;
-      --disabled-bg-color: #DDD;
-  }
-
-  [theme=dark] .colab-df-quickchart {
-      --bg-color: #3B4455;
-      --fill-color: #D2E3FC;
-      --hover-bg-color: #434B5C;
-      --hover-fill-color: #FFFFFF;
-      --disabled-bg-color: #3B4455;
-      --disabled-fill-color: #666;
-  }
-
-  .colab-df-quickchart {
-    background-color: var(--bg-color);
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    display: none;
-    fill: var(--fill-color);
-    height: 32px;
-    padding: 0;
-    width: 32px;
-  }
-
-  .colab-df-quickchart:hover {
-    background-color: var(--hover-bg-color);
-    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
-    fill: var(--button-hover-fill-color);
-  }
-
-  .colab-df-quickchart-complete:disabled,
-  .colab-df-quickchart-complete:disabled:hover {
-    background-color: var(--disabled-bg-color);
-    fill: var(--disabled-fill-color);
-    box-shadow: none;
-  }
-
-  .colab-df-spinner {
-    border: 2px solid var(--fill-color);
-    border-color: transparent;
-    border-bottom-color: var(--fill-color);
-    animation:
-      spin 1s steps(1) infinite;
-  }
-
-  @keyframes spin {
-    0% {
-      border-color: transparent;
-      border-bottom-color: var(--fill-color);
-      border-left-color: var(--fill-color);
-    }
-    20% {
-      border-color: transparent;
-      border-left-color: var(--fill-color);
-      border-top-color: var(--fill-color);
-    }
-    30% {
-      border-color: transparent;
-      border-left-color: var(--fill-color);
-      border-top-color: var(--fill-color);
-      border-right-color: var(--fill-color);
-    }
-    40% {
-      border-color: transparent;
-      border-right-color: var(--fill-color);
-      border-top-color: var(--fill-color);
-    }
-    60% {
-      border-color: transparent;
-      border-right-color: var(--fill-color);
-    }
-    80% {
-      border-color: transparent;
-      border-right-color: var(--fill-color);
-      border-bottom-color: var(--fill-color);
-    }
-    90% {
-      border-color: transparent;
-      border-bottom-color: var(--fill-color);
-    }
-  }
-</style>
-
-  <script>
-    async function quickchart(key) {
-      const quickchartButtonEl =
-        document.querySelector('#' + key + ' button');
-      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
-      quickchartButtonEl.classList.add('colab-df-spinner');
-      try {
-        const charts = await google.colab.kernel.invokeFunction(
-            'suggestCharts', [key], {});
-      } catch (error) {
-        console.error('Error during call to suggestCharts:', error);
-      }
-      quickchartButtonEl.classList.remove('colab-df-spinner');
-      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
-    }
-    (() => {
-      let quickchartButtonEl =
-        document.querySelector('#df-ff109bbb-0d5d-43fc-b9dd-9c1886d606a7 button');
-      quickchartButtonEl.style.display =
-        google.colab.kernel.accessAllowed ? 'block' : 'none';
-    })();
-  </script>
-</div>
-    </div>
-  </div>
-
-</div>
-
-</div>
-
-</div>
-
 </div>
 
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
@@ -16951,6 +16564,46 @@ class="
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>1/1 [==============================] - 0s 23ms/step
 Predicción De Compra es: Fortnightly: [[0.26691955]]
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-python"><pre><span></span><span class="err">!</span><span class="n">jupyter</span> <span class="n">nbconvert</span> <span class="o">--</span><span class="n">to</span> <span class="n">html</span> <span class="o">/</span><span class="n">content</span><span class="o">/</span><span class="n">tendencia_compra</span><span class="o">.</span><span class="n">ipynb</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>[NbConvertApp] Converting notebook /content/tendencia_compra.ipynb to html
+[NbConvertApp] Writing 1723121 bytes to /content/tendencia_compra.html
 </pre>
 </div>
 </div>
